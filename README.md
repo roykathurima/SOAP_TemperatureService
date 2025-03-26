@@ -1,6 +1,6 @@
 
 ### Pre-requisites
-Java 21
+* Java 21. You can check java version by running `java -version`.
 
 ### How to run
 Once you have cloned this repo, navigate to the root repo and;
