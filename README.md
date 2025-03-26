@@ -17,4 +17,4 @@ on windows, open a cmd shell or powershell and run:
 ```
 ### What is in this Repo
 While the repo has plenty of file, the only interesting files are:
-The [service class](https://github.com/roykathurima/SOAP_TemperatureService/blob/main/app/src/main/java/org/example/TemperatureService.java()) and the [Class that exposes the API](https://github.com/roykathurima/SOAP_TemperatureService/blob/main/app/src/main/java/org/example/App.java).
+The [service class](https://github.com/roykathurima/SOAP_TemperatureService/blob/main/app/src/main/java/org/example/TemperatureService.java) and the [Class that exposes the API](https://github.com/roykathurima/SOAP_TemperatureService/blob/main/app/src/main/java/org/example/App.java).
