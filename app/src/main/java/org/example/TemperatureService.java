@@ -3,17 +3,18 @@ package org.example;
 
 import jakarta.jws.WebService;
 import jakarta.jws.WebMethod;
+import jakarta.jws.WebParam;
 
 @WebService
 public class TemperatureService {
 
     @WebMethod
-    public double celsiusToFarenheit(double celsius) {
+    public double celsiusToFarenheit(@WebParam(name = "celsius") double celsius) {
         return (celsius * 9 / 5) + 32;
     }
 
     @WebMethod
-    public double farenheitToCelsius(double farenheit) {
+    public double farenheitToCelsius(@WebParam(name = "farenheit") double farenheit) {
         return (farenheit - 32) * 5 / 9;
     }
 }
