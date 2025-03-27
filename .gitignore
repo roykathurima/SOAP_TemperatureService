@@ -6,7 +6,10 @@ build
 **/build
 **/bin
 
-
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings/
 # other files
 *.jar
 *.war
