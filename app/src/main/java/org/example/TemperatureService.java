@@ -16,7 +16,7 @@ public class TemperatureService {
     }
 
     @WebMethod
-    @WebResult(name = "temperatureInFarenheit")
+    @WebResult(name = "temperatureInCelsius")
     public double farenheitToCelsius(@WebParam(name = "farenheit") double farenheit) {
         return (farenheit - 32) * 5 / 9;
     }
